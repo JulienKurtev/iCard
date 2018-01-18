@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>myPOS</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/style.css" />
+
+	<link rel="stylesheet" href="css/media.css" type="text/css" media="all" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<nav class="navbar navbar-inverse">
+				  <div class="container-fluid">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>                        
+				      </button>
+				      <a class="navbar-brand" href="#">myPOS</a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="myNavbar">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="#">Home</a></li>
+				        <li><a href="#">Features</a></li>
+				        <li><a href="#">Order</a></li>
+				        <li class="dropdown">
+				          <a class="dropdown-toggle" data-toggle="dropdown" href="#">More <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Compare</a></li>
+				            <li><a href="#">Testimonials</a></li>
+				            <li><a href="#">Resources</a></li>
+				            <li><a href="#">Frequently Asked Questions</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				      <ul class="nav navbar-nav navbar-right">
+				      	<li><a href="#"><i class="ico ico-arrow-right"></i>Activate My Pos</a></li>
+				        <li><a href="#"><i class="ico ico-check"></i> Sign Up</a></li>
+				        <li><a href="#" class="btn btn-transparent-prim"><i class="ico ico-locker"></i> Login</a></li>
+				        <li class="dropdown">
+				          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="ico ico-flaggb"></i> <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#"><i class="ico ico-flagbg"></i></a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				    </div>
+				  </div>
+				</nav>
+			</div>
+		</header>
+
+		<div class="slider">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			    </ol>
+
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner">
+			      <div class="item item-primary active">
+					
+					<div class="container">
+						<div class="slider-item-inner">
+							<img src="css/images/temp/slider-person-image.png" alt="" class="slider-person-image">
+				        	<h1>Join the payment revolution!</h1>
+							<p>One of the crucial aspects for maintaining a successful business is the constant flow of cash. With myPOS you have your money settled instantly. <span>Because that's how it should be.</span></p>
+							<div class="slider-actions">
+								<a href="#" class="btn btn-blue">
+									Sign Up
+								</a>
+						
+								<a href="#" class="btn btn-pink">
+									ACTIVATE myPOS
+								</a>
+							</div>
+						</div>
+					</div>
+			      </div>
+
+			      <div class="item item-secondary">
+			        
+		        		<div class="container">
+		        			<div class="slider-item-inner">
+		        				<img src="css/images/temp/slider-person-image.png" alt="" class="slider-person-image">
+		      		                	<h1>Join the payment revolution!</h1>
+		        				<p>One of the crucial aspects for maintaining a successful business is the constant flow of cash. With myPOS you have your money settled instantly. <span>Because that's how it should be.</span></p>
+		        				<div class="slider-actions">
+		        					<a href="#" class="btn btn-blue">
+		        						Sign Up
+		        					</a>
+		        			
+		        					<a href="#" class="btn btn-pink">
+		        						ACTIVATE myPOS
+		        					</a>
+		        				</div>
+		        			</div>
+		        		</div>
+			      </div>
+			    </div>
+			  </div>
+		</div>
+
+		<div class="main">
+			<section class="section-tabs">
+				<div class="section-head">
+					<div class="container">
+						<ul class="nav nav-pills row">
+							<li class="col-sm-3 nav-pill-primary active"><a data-toggle="pill" href="#home"><i class="ico ico-wallet"></i><small>myPOS</small><br><span>Account</span></a></li>
+							<li class="col-sm-3 nav-pill-secondary"><a data-toggle="pill" href="#menu1"><i class="ico ico-screen"></i><small>myPOS</small><br><span>Virtual</span></a></li>
+							<li class="col-sm-3 nav-pill-teritary"><a data-toggle="pill" href="#menu2"><i class="ico ico-credit-cards"></i><small>myPOS</small><br><span>Business Card</span></a></li>
+							<li class="col-sm-3 nav-pill-quaternary"><a data-toggle="pill" href="#menu3"><i class="ico ico-label"></i><small>myPOS</small><br><span>Private Label</span></a></li>
+					    </ul>
+					</div>
+				</div>
+			
+				<div class="section-body">
+					<div class="tab-content">
+					  <div id="home" class="tab-pane fade in active">
+					    <div class="col-sm-6">
+					    	<div class="tab-description">
+					    		<div class="tab-description-inner">
+					    			<h3>Modern online banking</h3>
+					    			<p>Easily collect the funds processed through myPOS in a business account with dedicated IBANs in multiple currencies.</p>
+					    		</div>
+					    	</div>
+					    </div>
+					    
+					    <div class="col-sm-6">
+					    	<div class="tab-list">
+					    		<ul class="list-features">
+					    			<li>
+					    				<i class="ico ico-globe"></i>
+					    				
+					    				<h5>Free Iban</h5>
+					    				
+					    				<p>With myPOS account you receive free IBANs in multiple currencies. Each IBAN can be used for worldwide bank transfers at great rates.</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-clock"></i>
+					    				
+					    				<h5>Free Merchant Account</h5>
+					    				
+					    				<p>Multi-currency Electronic Money Account to which we settle the money from the card payments processed on your terminals. INSTANTLY!</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-credit-cards-blue"></i>
+					    				
+					    				<h5>Free mypos card</h5>
+					    				
+					    				<p>With your myPOS package you get a free Business MasterCard which you can link directly to your account</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-mobile"></i>
+					    				
+					    				<h5>east to use free mobile app</h5>
+					    				
+					    				<p>Get instant access to your account anytime with the free myPOS Mobile App.</p>
+					    			</li>
+					    		</ul>
+					    	</div>
+					    </div>
+					  </div>
+					  <div id="menu1" class="tab-pane fade">
+					    <div class="col-sm-6">
+					    	<div class="tab-description">
+					    		<div class="tab-description-inner">
+					    			<h3>Modern online banking</h3>
+					    			<p>Easily collect the funds processed through myPOS in a business account with dedicated IBANs in multiple currencies.</p>
+					    		</div>
+					    	</div>
+					    </div>
+					    
+					    <div class="col-sm-6">
+					    	<div class="tab-list">
+					    		<ul class="list-features">
+					    			<li>
+					    				<i class="ico ico-globe"></i>
+					    				
+					    				<h5>Free Iban</h5>
+					    				
+					    				<p>With myPOS account you receive free IBANs in multiple currencies. Each IBAN can be used for worldwide bank transfers at great rates.</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-clock"></i>
+					    				
+					    				<h5>Free Merchant Account</h5>
+					    				
+					    				<p>Multi-currency Electronic Money Account to which we settle the money from the card payments processed on your terminals. INSTANTLY!</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-credit-cards-blue"></i>
+					    				
+					    				<h5>Free mypos card</h5>
+					    				
+					    				<p>With your myPOS package you get a free Business MasterCard which you can link directly to your account</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-mobile"></i>
+					    				
+					    				<h5>east to use free mobile app</h5>
+					    				
+					    				<p>Get instant access to your account anytime with the free myPOS Mobile App.</p>
+					    			</li>
+					    		</ul>
+					    	</div>
+					    </div>
+					  </div>
+					  <div id="menu2" class="tab-pane fade">
+					    <div class="col-sm-6">
+					    	<div class="tab-description">
+					    		<div class="tab-description-inner">
+					    			<h3>Modern online banking</h3>
+					    			<p>Easily collect the funds processed through myPOS in a business account with dedicated IBANs in multiple currencies.</p>
+					    		</div>
+					    	</div>
+					    </div>
+					    
+					    <div class="col-sm-6">
+					    	<div class="tab-list">
+					    		<ul class="list-features">
+					    			<li>
+					    				<i class="ico ico-globe"></i>
+					    				
+					    				<h5>Free Iban</h5>
+					    				
+					    				<p>With myPOS account you receive free IBANs in multiple currencies. Each IBAN can be used for worldwide bank transfers at great rates.</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-clock"></i>
+					    				
+					    				<h5>Free Merchant Account</h5>
+					    				
+					    				<p>Multi-currency Electronic Money Account to which we settle the money from the card payments processed on your terminals. INSTANTLY!</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-credit-cards-blue"></i>
+					    				
+					    				<h5>Free mypos card</h5>
+					    				
+					    				<p>With your myPOS package you get a free Business MasterCard which you can link directly to your account</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-mobile"></i>
+					    				
+					    				<h5>east to use free mobile app</h5>
+					    				
+					    				<p>Get instant access to your account anytime with the free myPOS Mobile App.</p>
+					    			</li>
+					    		</ul>
+					    	</div>
+					    </div>
+					  </div>
+					  <div id="menu3" class="tab-pane fade">
+					    <div class="col-sm-6">
+					    	<div class="tab-description">
+					    		<div class="tab-description-inner">
+					    			<h3>Modern online banking</h3>
+					    			<p>Easily collect the funds processed through myPOS in a business account with dedicated IBANs in multiple currencies.</p>
+					    		</div>
+					    	</div>
+					    </div>
+					    
+					    <div class="col-sm-6">
+					    	<div class="tab-list">
+					    		<ul class="list-features">
+					    			<li>
+					    				<i class="ico ico-globe"></i>
+					    				
+					    				<h5>Free Iban</h5>
+					    				
+					    				<p>With myPOS account you receive free IBANs in multiple currencies. Each IBAN can be used for worldwide bank transfers at great rates.</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-clock"></i>
+					    				
+					    				<h5>Free Merchant Account</h5>
+					    				
+					    				<p>Multi-currency Electronic Money Account to which we settle the money from the card payments processed on your terminals. INSTANTLY!</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-credit-cards-blue"></i>
+					    				
+					    				<h5>Free mypos card</h5>
+					    				
+					    				<p>With your myPOS package you get a free Business MasterCard which you can link directly to your account</p>
+					    			</li>
+					    			
+					    			<li>
+					    				<i class="ico ico-mobile"></i>
+					    				
+					    				<h5>east to use free mobile app</h5>
+					    				
+					    				<p>Get instant access to your account anytime with the free myPOS Mobile App.</p>
+					    			</li>
+					    		</ul>
+					    	</div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="section-models">
+				<div class="container">
+					<div class="section-head">
+						<h2>myPOS Models</h2>
+						<p>Choose the device that suits your needs in a best way.</p>
+					</div>
+				
+					<div class="section-body">
+							<div class="section-inner">
+								<h3>D210C</h3>
+								<p>Mobile Payment Terminal with Bluetooth and WiFi connectivity</p>
+
+								<div class="slider-secondary-image">
+				      			<img src="css/images/temp/pos-image.png" alt="">
+							 </div>
+							</div>
+
+							
+							<div id="myCarouselSecondary" class="slider-secondary carousel slide" data-ride="carousel">
+							    <!-- Wrapper for slides -->
+							    <div class="carousel-inner">
+							      <div class="item active">
+							      		<ul class="list-pos-features">
+							      			<li>
+							      				Thermal printer, speed: 18 lines per second; <br>
+							      				Paper roll width / diameter: 58mm / 40mm
+							      			</li>
+							      			
+							      			<li>
+							      				192MB (128MB Flash, 64MB DDR); <br>
+							      				Micro SD (TF card) up to 32GB
+							      			</li>
+							      			
+							      			<li>
+							      				2 x SAMs, 1 x SIM, 1 x microSD <br>
+							      				1 x Micro USB (OTG); 1 x Mini USB (Rs232); 1 x Power port
+							      			</li>
+							      		</ul>
+			
+							      		<div class="slider-secondary-actions">
+							      			<a href="#" class="btn btn-blue">View More</a>
+							      		</div>
+
+							      		
+							      </div>
+				
+							      <div class="item">
+							       		<ul class="list-pos-features">
+							       			<li>
+							       				Thermal printer, speed: 18 lines per second; <br>
+							       				Paper roll width / diameter: 58mm / 40mm
+							       			</li>
+							       			
+							       			<li>
+							       				192MB (128MB Flash, 64MB DDR); <br>
+							       				Micro SD (TF card) up to 32GB
+							       			</li>
+							       			
+							       			<li>
+							       				2 x SAMs, 1 x SIM, 1 x microSD <br>
+							       				1 x Micro USB (OTG); 1 x Mini USB (Rs232); 1 x Power port
+							       			</li>
+							       		</ul>
+			
+							       		<div class="slider-secondary-actions">
+							       			<a href="#" class="btn btn-blue">View More</a>
+							       		</div>
+
+							       		
+							      </div>
+							    </div>
+							    <!-- Left and right controls -->
+							        <a class="left carousel-control" href="#myCarouselSecondary" data-slide="prev">
+							          <span class="glyphicon glyphicon-chevron-left"></span>
+							          <span class="sr-only">Previous</span>
+							        </a>
+							        <a class="right carousel-control" href="#myCarouselSecondary" data-slide="next">
+							          <span class="glyphicon glyphicon-chevron-right"></span>
+							          <span class="sr-only">Next</span>
+							        </a>
+							  </div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="section-pink">
+				<div class="container">
+					<h2>Compare Models</h2>
+					<p>View a side by side comparison of the available models and choose which best suits your business’ needs.</p>
+				</div>
+			</section>
+			
+			<section class="section-testimonials">
+				<div class="container">
+					<div class="section-testimonials-inner">
+						<i class="ico ico-quote"></i>
+						<h3>MasterCard about myPOS - А revolutionary concept in the payment industry </h3>
+				
+						<div id="myCarouselTestimonials" class="slider-testimonial carousel slide" data-ride="carousel">
+						    <!-- Indicators -->
+						    <ol class="carousel-indicators">
+						      <li data-target="#myCarouselTestimonials" data-slide-to="0" class="active"></li>
+						      <li data-target="#myCarouselTestimonials" data-slide-to="1"></li>
+						      <li data-target="#myCarouselTestimonials" data-slide-to="2"></li>
+						    </ol>
+						
+						    <!-- Wrapper for slides -->
+						    <div class="carousel-inner">
+						      <div class="testimonial item active">
+						      		<p>The ability to accept payments with the use of MPOS and at the same time with instant access to those funds through MasterCard Business card is a revolutionary concept in the payment industry... I find it is as a great solution for SMEs since it will also help business improve cash flow and overcome one of their key challenges - collecting payments rapidly and avoiding delinquencies. </p>
+				
+						      		<div class="testimonial-author">
+						      			<span>
+						      				Arthur Turemka  <br> <strong>Senior Manager at MasterCard</strong>
+						      			</span>
+						      		</div>
+						      </div>
+						
+						      <div class="testimonial item">
+						       		<p>The ability to accept payments with the use of MPOS and at the same time with instant access to those funds through MasterCard Business card is a revolutionary concept in the payment industry... I find it is as a great solution for SMEs since it will also help business improve cash flow and overcome one of their key challenges - collecting payments rapidly and avoiding delinquencies. </p>
+				
+						       		<div class="testimonial-author">
+						       			<span>
+						       				Arthur Turemka  <br> <strong>Senior Manager at MasterCard</strong>
+						       			</span>
+						       		</div>
+						      </div>
+				
+						      <div class="testimonial item">
+						       		<p>The ability to accept payments with the use of MPOS and at the same time with instant access to those funds through MasterCard Business card is a revolutionary concept in the payment industry... I find it is as a great solution for SMEs since it will also help business improve cash flow and overcome one of their key challenges - collecting payments rapidly and avoiding delinquencies. </p>
+				
+						       		<div class="testimonial-author">
+						       			<span>
+						       				Arthur Turemka  <br> <strong>Senior Manager at MasterCard</strong>
+						       			</span>
+						       		</div>
+						      </div>
+						    </div>
+						  
+						  </div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="section-features">
+				<div class="container">
+					<div class="feauter-image-prim section-image col-sm-5 col">
+						<img src="css/images/temp/feature1-image.png" alt="">
+					</div>
+					
+					<div class="col-sm-offset-2 col-sm-5 col">
+						<div class="feature">
+							<h2>Complete Payment Solution </h2>
+			
+							<p>No need of bank account and no need to wait for your money. myPOS pays your funds to an E-Money Account immediately after the transaction.</p>
+							
+							<p>You can collect the processed payments and make SEPA/SWIFT transfers to any bank account you wish. Your E-Money Account (with IBAN) comes for FREE.</p>
+							
+							<a href="#" class="btn btn-blue">View More</a>
+						</div>
+					</div>
+					
+					<div class="col-sm-5 col">
+						<div class="feature">
+							<h2>One Account - Multiple Devices </h2>
+			
+							<p>Manage your money, IBANs, cards and all myPOS devices through a secure single account.</p>
+							
+							<p>Make outgoing bank transfers, mass transfers and standing orders with ease. Advanced settings allow multiple user access with different user rights. </p>
+							
+							<a href="#" class="btn btn-blue">View More</a>
+						</div>
+					</div>
+					
+					<div class="feauter-image-secondary section-image col-sm-offset-2 col-sm-5 col">
+						<img src="css/images/temp/feature2-image.png" alt="">
+					</div>
+					
+					<div class="feauter-image-teritary section-image col-sm-5 col">
+						<img src="css/images/temp/feature3-image.png" alt="">
+					</div>
+					
+					<div class="col-sm-offset-2 col-sm-5 col">
+						<div class="feature">
+							<h2>Convenient All-In-One Package </h2>
+			
+							<p> We've developed a product that makes card acceptance easy and accessible. myPOS package is especially designed for merchants who seek a comfortable hassle-free payment experience with minimal financial commitments.</p>
+							
+							<p>You get a POS device, business account with free IBANs in multiple currencies, and a free business MasterCard linked to your account. All-in-one solution to many issues.</p>
+							
+							<a href="#" class="btn btn-blue">View More</a>
+						</div>
+					</div>
+					
+					<div class="col-sm-5 col">
+						<div class="feature">
+							<h2>Quickly Enhance Your Web Payments With myPOS Virtual </h2>
+			
+							<p>Managing a successful online business might be very rewarding, yet challenging at the same time. </p>
+							
+							<p>eCommerce has been rapidly evolving – your customers are better informed and have higher expectations, while you have to compete for a market share on all the different channels.</p>
+							
+							<a href="#" class="btn btn-blue">View More</a>
+						</div>
+					</div>
+					
+					<div class="feauter-image-quaternary section-image col-sm-offset-2 col-sm-5">
+						<img src="css/images/temp/feature4-image.png" alt="">
+					</div>
+			
+					<div class="col-image col-sm-12">
+						<img src="css/images/temp/mypos-laptop-image.png" alt="">
+					</div>
+				</div>
+			</section>
+
+			<section class="section-logos">
+				<div class="container">
+					<img src="css/images/temp/logos-image.png" alt="">
+				</div>
+			</section>
+			
+			<section class="section-pink">
+				<div class="container">
+					<h2>Order Package</h2>
+					<p>Get your hands on the unique all in one package and excell your business to a new level.</p>
+				</div>
+			</section>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-head row">
+					<div class="col col-sm-6">
+						<a href="#" class="btn btn-blue btn-blue-small">Login</a>
+						
+						<a href="#" class="btn btn-blue btn-blue-small">Sign Up</a>
+
+						<a href="#" class="btn btn-pink btn-pink-small">ACTIVATE myPOS</a>
+					</div>
+
+					<div class="col col-sm-offset-3 col-sm-3">
+						
+
+						<ul class="nav-lang">
+							<li>
+								<span>Change language:</span>
+
+								<a href="#">
+									<i class="ico ico-flaggb"></i>
+									English
+									<span class="caret"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer-body row">
+					<div class="col col-sm-3">
+						<div class="update">
+							<h6>LEGAL</h6>
+							<ul class="list-links">
+								<li>
+									<a href="#">Legal Documents</a>
+								</li>
+								
+								<li>
+									<a href="#">Compliance</a>
+								</li>
+								
+								<li>
+									<a href="#">Currency Exchange Rates</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col col-sm-3">
+						<div class="update">
+							<h6>ABOUT</h6>
+							<ul class="list-links">
+								<li>
+									<a href="#">Contacts</a>
+								</li>
+								
+								<li>
+									<a href="#">Compare</a>
+								</li>
+								
+								<li>
+									<a href="#">Testimonials</a>
+								</li>
+								
+								<li>
+									<a href="#">Resources</a>
+								</li>
+								
+								<li>
+									<a href="#">Frequently Asked Questions</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col col-sm-3">
+						<div class="update">
+							<h6>FEATURES</h6>
+							<ul class="list-links">
+								<li>
+									<a href="#">myPOS Account</a>
+								</li>
+								
+								<li>
+									<a href="#">myPOS Virtual</a>
+								</li>
+								
+								<li>
+									<a href="#">Business Card</a>
+								</li>
+								
+								<li>
+									<a href="#">Private Label</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col col-sm-3">
+						<div class="update">
+							<h6>CONTACT US</h6>
+							<ul class="list-links">
+								<li>
+									<a href="#">sales@mypos.eu</a>
+								</li>
+								
+								<li>
+									<a href="#">support@mypos.eu</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="ico ico-facebook"></i>
+									</a>
+								</li>
+
+								<li>
+									<a href="#" class="btn btn-transparent">Send A Message</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-foot row">
+					<div class="col col-xs-12">
+						<p>
+							Satabank P.L.C. with registration number C66993, SWIFT/BIC: STBAMTMT, Malta is credit institution licensed by the Malta Financial Services Authority under the Banking Act (1994) 
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>	
